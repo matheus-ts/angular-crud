@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+}
+
+i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+i:hover{
+    color: #b8b8b8;
+}
