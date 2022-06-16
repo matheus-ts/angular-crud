@@ -5,10 +5,15 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "noImplicitReturns": true,
+    //ImplicitReturns está marcado como true, então ele não necessita que você especifique 
+    //totalmente o tipo de uma var ou retorno de função()
+    // Exemplo (String, Number, Void)
+    "strict": false,
+    //o Strict é uma propriedade especifica para 'Atentar' o desenvolvedor a declarar os tipos de retorno
+    //Por ser uma boa pratica, mas sempre que tiver problemas é só alternar o 'Strict' de true para false
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
